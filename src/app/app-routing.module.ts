@@ -11,6 +11,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { AboutComponent } from './components/about/about.component';
 import { TestimonioComponent } from './components/testimonio/testimonio.component';
 import { DevsComponent } from './components/devs/devs.component';
+import { RegistroComponent } from './components/registro/registro.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -22,6 +23,7 @@ const routes: Routes = [
   {path: 'footer', component: FooterComponent},
   {path: 'testimonio', component: TestimonioComponent},
   {path: 'devs', component: DevsComponent},
+  {path: 'registro', component: RegistroComponent},
   {path: '**', pathMatch:'full', redirectTo: 'home'}
 ];
 

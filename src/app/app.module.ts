@@ -14,6 +14,7 @@ import { AboutComponent } from './components/about/about.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { TestimonioComponent } from './components/testimonio/testimonio.component';
 import { DevsComponent } from './components/devs/devs.component';
+import { RegistroComponent } from './components/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { DevsComponent } from './components/devs/devs.component';
     AboutComponent,
     GaleriaComponent,
     TestimonioComponent,
-    DevsComponent
+    DevsComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
