@@ -1,27 +1,27 @@
-# ProjectRestaurant
+# Restaurante 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
-## Development server
+## Home
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://github.com/jgarzon97/Restaurante/assets/87027831/daf6dbe6-7e6a-411b-bcc8-f23f7c92035b)
 
-## Code scaffolding
+## Menu
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://github.com/jgarzon97/Restaurante/assets/87027831/98ea15df-23b2-4e55-a812-defa9591a0a8)
 
-## Build
+## Reservaciones
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image](https://github.com/jgarzon97/Restaurante/assets/87027831/a93af7b0-8be7-4066-aaae-231319f3adb1)
 
-## Running unit tests
+## About us
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://github.com/jgarzon97/Restaurante/assets/87027831/7d16fbbc-f304-433a-956b-b4fbb01f47f7)
 
-## Running end-to-end tests
+## Testimonios
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![image](https://github.com/jgarzon97/Restaurante/assets/87027831/4997bdcd-1a46-4ad4-9890-a630226aacd2)
 
-## Further help
+## Dirección
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/jgarzon97/Restaurante/assets/87027831/21e68dc6-d289-499f-962f-3f5a477fdc6f)
