@@ -14,7 +14,11 @@ import { AboutComponent } from './components/about/about.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { TestimonioComponent } from './components/testimonio/testimonio.component';
 import { DevsComponent } from './components/devs/devs.component';
-import { RegistroComponent } from './components/registro/registro.component';
+import { PedidosComponent } from './components/gestion/pedidos/pedidos.component';
+
+// Import the module from the SDK
+import { AuthModule } from '@auth0/auth0-angular';
+import { DashboardComponent } from './components/gestion/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -29,11 +33,19 @@ import { RegistroComponent } from './components/registro/registro.component';
     GaleriaComponent,
     TestimonioComponent,
     DevsComponent,
-    RegistroComponent
+    PedidosComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthModule.forRoot({
+      domain: 'jgarzon97.us.auth0.com',
+      clientId: 'SgRvnBxNAk5UoDZE4CsYzrJRue2CBXHv',
+      authorizationParams: {
+        redirect_uri: window.location.origin
+      }
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
