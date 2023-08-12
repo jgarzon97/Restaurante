@@ -1,0 +1,22 @@
+#p-justify {
+    text-align: justify;
+}
+
+.table {
+    padding: 15px;
+    border-color: var(--pink);
+
+}
+
+td {
+    color: var(--while);
+    background-color: var(--dark);
+}
+
+a {
+    display: inline-block;
+    background-color: var(--while);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+section {
+    padding: 20px;
+}
+
+.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.gallary-item {
+    padding: 10px;
+}
+
+.gallary-img {
+    max-width: 100%;
+    height: auto;
+}

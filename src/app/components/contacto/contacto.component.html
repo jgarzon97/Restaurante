@@ -1,19 +1,30 @@
-<div id="contact" class="container-fluid bg-dark text-light border-top wow fadeIn">
-    <div class="row">
-        <div class="col-md-6 px-5">
-            <div class="container-fluid p-0">
-                <img id="wallpaper" src="assets/direccion/maps.png" alt="wallpaper" class="img-fluid vw-100 rounded">
+<section>
+    <div class="container bg-dark p-3">
+        <h2 class="h1-responsive font-weight-bold text-center my-4">PONTE EN CONTACTO CON NOSOTROS</h2>
+        <p class="text-center w-responsive mx-auto mb-5">¿Tiene usted alguna pregunta? Por favor, no dude en
+            contactarnos
+            directamente. Nuestro equipo se comunicará contigo en cuestión de horas para ayudarte.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <div class="mb-2">
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" id="email" name="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Asunto">
+                    </div>
+                    <div>
+                        <textarea id="message" name="message" rows="2" class="form-control md-textarea"
+                            placeholder="Mensaje"></textarea>
+                    </div>
+                </form>
             </div>
         </div>
-        <div class="col-md-6 px-5 has-height-lg middle-items">
-            <h3>ENCUÉNTRANOS</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt et assumenda sint aspernatur ad, nobis odio quas perferendis at cumque qui eum ut dolor repudiandae, quibusdam nihil voluptatem! Temporibus?
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis voluptatibus maiores est ipsam deserunt, veniam facere optio quas voluptates eveniet itaque, distinctio expedita atque quae voluptate esse neque aperiam excepturi.<p>
-            <div class="text-muted">
-                <p><span class="ti-location-pin pr-3"></span> 12345 Fake ST NoWhere, AB Country</p>
-                <p><span class="ti-support pr-3"></span> (123) 456-7890</p>
-                <p><span class="ti-email pr-3"></span>info@example.com</p>
-            </div>
+        <div class="text-center text-md-left p-3">
+            <a class="btn btn-primary">Enviar</a>
         </div>
     </div>
-</div>
+</section>

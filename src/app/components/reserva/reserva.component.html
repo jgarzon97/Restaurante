@@ -1,24 +1,38 @@
-<!-- Reservaciones -->
-<div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
-    <div class="">
-        <h2 class="section-title mb-5">RESERVA TU MESA</h2>
-        <div class="row mb-5">
-            <div class="col-sm-6 col-md-3 col-xs-12 my-2">
-                <input type="email" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="TELÉFONO">
+<section>
+    <!-- Reservaciones -->
+    <h2 class="section-title text-center">RESERVA TU MESA</h2>
+    <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items my-3" id="book-table">
+        <div class="row mb-3">
+            <div class="col-md-6 col-sm-6 my-2">
+                <input type="name" class="form-control form-control-lg custom-form-control" placeholder="NOMBRE">
             </div>
-            <div class="col-sm-6 col-md-3 col-xs-12 my-2">
-                <input type="number" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="NÚMERO DE MESAS" max="10" min="0">
-            </div>
-            <div class="col-sm-6 col-md-3 col-xs-12 my-2">
-                <input type="time" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="HORA">
-            </div>
-            <div class="col-sm-6 col-md-3 col-xs-12 my-2">
-                <input type="date" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="12/12/12">
+            <div class="col-md-6 col-sm-6 my-2">
+                <input type="name" class="form-control form-control-lg custom-form-control"
+                    placeholder="N° DE CÉDULA">
             </div>
         </div>
+        <div class="row mb-3">
+            <div class="col-md-6 col-sm-6 my-2">
+                <input type="number" class="form-control form-control-lg custom-form-control"
+                    placeholder="NÚMERO DE MESAS" max="10" min="0">
+            </div>
+            <div class="col-md-6 col-sm-6 my-2">
+                <input type="email" class="form-control form-control-lg custom-form-control" placeholder="TELÉFONO">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 my-2">
+                <input type="time" class="form-control form-control-lg custom-form-control" placeholder="HORA">
+            </div>
+            <div class="col-md-6 col-sm-6 my-2">
+                <input type="date" class="form-control form-control-lg custom-form-control" placeholder="12/12/12">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid has-bg-overlay text-center text-light my-3">
         <a href="#" class="btn btn-lg btn-primary" id="rounded-btn">CONFIRMAR</a>
     </div>
-    <div class="container-fluid p-0">
+    <div class="container-fluid my-3">
         <img id="wallpaper" src="assets/imgs/book-table-img.jpg" alt="wallpaper" class="img-fluid vw-100 rounded">
     </div>
-</div>
+</section>
