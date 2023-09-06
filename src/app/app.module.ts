@@ -38,7 +38,7 @@ import { AuthModule } from '@auth0/auth0-angular';
     DashboardComponent,
     CarouselComponent,
     InforPageComponent,
-    InforAboutComponent
+    InforAboutComponent,
   ],
   imports: [
     BrowserModule,
